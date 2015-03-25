@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LastManStanding", "LastManStanding\LastManStanding.csproj", "{2889654F-F7A6-49F5-89A8-A9BA0A1383CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LMSLibrary", "LMSLibrary\LMSLibrary.csproj", "{D4F53A7C-98F4-41CB-8007-61E4D5A3992C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLParser", "XMLParser\XMLParser.csproj", "{4E919E91-901A-402E-9F70-A584FF81714D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2889654F-F7A6-49F5-89A8-A9BA0A1383CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2889654F-F7A6-49F5-89A8-A9BA0A1383CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2889654F-F7A6-49F5-89A8-A9BA0A1383CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2889654F-F7A6-49F5-89A8-A9BA0A1383CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4F53A7C-98F4-41CB-8007-61E4D5A3992C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4F53A7C-98F4-41CB-8007-61E4D5A3992C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4F53A7C-98F4-41CB-8007-61E4D5A3992C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4F53A7C-98F4-41CB-8007-61E4D5A3992C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E919E91-901A-402E-9F70-A584FF81714D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E919E91-901A-402E-9F70-A584FF81714D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E919E91-901A-402E-9F70-A584FF81714D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E919E91-901A-402E-9F70-A584FF81714D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

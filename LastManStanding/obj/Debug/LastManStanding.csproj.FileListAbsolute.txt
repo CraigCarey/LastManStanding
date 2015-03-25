@@ -1,0 +1,10 @@
+C:\Users\Craig\Google Drive\Workspace\LastManStanding\LastManStanding\bin\Debug\LastManStanding.exe.config
+C:\Users\Craig\Google Drive\Workspace\LastManStanding\LastManStanding\bin\Debug\LastManStanding.exe
+C:\Users\Craig\Google Drive\Workspace\LastManStanding\LastManStanding\bin\Debug\LastManStanding.pdb
+C:\Users\Craig\Google Drive\Workspace\LastManStanding\LastManStanding\bin\Debug\LMSLibrary.dll
+C:\Users\Craig\Google Drive\Workspace\LastManStanding\LastManStanding\bin\Debug\nunit.framework.dll
+C:\Users\Craig\Google Drive\Workspace\LastManStanding\LastManStanding\bin\Debug\LMSLibrary.pdb
+C:\Users\Craig\Google Drive\Workspace\LastManStanding\LastManStanding\bin\Debug\nunit.framework.xml
+C:\Users\Craig\Google Drive\Workspace\LastManStanding\LastManStanding\obj\Debug\LastManStanding.csprojResolveAssemblyReference.cache
+C:\Users\Craig\Google Drive\Workspace\LastManStanding\LastManStanding\obj\Debug\LastManStanding.exe
+C:\Users\Craig\Google Drive\Workspace\LastManStanding\LastManStanding\obj\Debug\LastManStanding.pdb
