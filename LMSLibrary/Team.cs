@@ -8,7 +8,9 @@ namespace LastManStanding
 {
     public class Team
     {
-        public Team(string teamName, int league, int position = 0, int gamesPlayed = 0, int gamesWon = 0, int gamesDrawn = 0, int gamesLost = 0, int goalsFor = 0, int goalsAgainst = 0, int numPoints = 0)
+        public Team(string teamName, int league, int position = 0, int gamesPlayed = 0,
+                    int gamesWon = 0, int gamesDrawn = 0, int gamesLost = 0,
+                    int goalsFor = 0, int goalsAgainst = 0, int numPoints = 0)
         {
             Name = teamName;
             League = league;
@@ -59,18 +61,6 @@ namespace LastManStanding
             sb.AppendFormat("{0} ", Points);
 
             return sb.ToString();
-        }
-
-        public void CalcForm()
-        {
-            for (int i = 4; i >= 0; i--)
-            {
-                Form += lastFive[i] * (i + 1);
-            }
-
-            int maxPoints = 45;
-
-            Form = 100 * Math.Round(Form / maxPoints, 3);
         }
     }
 }

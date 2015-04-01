@@ -1,9 +1,10 @@
 ﻿using System;
+using System.Linq;
 using System.Collections.Generic;
 
 namespace LastManStanding
 {
-    class Program
+    class Program   /* XMLParser */
     {
         static void Main(string[] args)
         {
@@ -19,26 +20,15 @@ namespace LastManStanding
             LeagueTableParser tp = new LeagueTableParser();
 
             Uri PLUri = new Uri("http://www.footballwebpages.co.uk/league.xml?comp=1");
-            Uri CHUri = new Uri("http://www.footballwebpages.co.uk/league.xml?comp=2");
 
-            IEnumerable<Team> teamsPL = await tp.GetLeagueTeamsAsync(PLUri);
+            IEnumerable<Team> teamsPL = await tp.GetLeagueTeamsAsync(PLUri, 1);
 
             Console.WriteLine("\n----------------- Premiership -----------------\n");
-            
-            foreach (Team t in teamsPL)
-            {
-                Console.WriteLine(t.ToString());
-            }
 
-            Console.WriteLine("\n----------------- Championship -----------------\n");
-
-            IEnumerable<Team> teamsCH = await tp.GetLeagueTeamsAsync(CHUri);
-
-            foreach (Team t in teamsCH)
-            {
-                Console.WriteLine(t.ToString());
-            }
+            Team chelsea = LeagueTableParser.SelectTeam(teamsPL, "Chelsea");
+            Team liverpool = LeagueTableParser.SelectTeam(teamsPL, "Liverpool");
 
         }
+        
     }
 }

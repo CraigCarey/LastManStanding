@@ -1,6 +1,6 @@
 C:\Users\Craig\Google Drive\Workspace\LastManStanding\XMLParser\bin\Debug\XMLParser.exe.config
 C:\Users\Craig\Google Drive\Workspace\LastManStanding\XMLParser\bin\Debug\XMLParser.exe
 C:\Users\Craig\Google Drive\Workspace\LastManStanding\XMLParser\bin\Debug\XMLParser.pdb
-C:\Users\Craig\Google Drive\Workspace\LastManStanding\XMLParser\obj\Debug\XMLParser.csprojResolveAssemblyReference.cache
 C:\Users\Craig\Google Drive\Workspace\LastManStanding\XMLParser\obj\Debug\XMLParser.exe
 C:\Users\Craig\Google Drive\Workspace\LastManStanding\XMLParser\obj\Debug\XMLParser.pdb
+C:\Users\Craig\Google Drive\Workspace\LastManStanding\XMLParser\obj\Debug\XMLParser.csprojResolveAssemblyReference.cache

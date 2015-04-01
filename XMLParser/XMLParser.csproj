@@ -42,10 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\LMSLibrary\LeagueTableParser.cs">
+      <Link>LeagueTableParser.cs</Link>
+    </Compile>
     <Compile Include="..\LMSLibrary\Team.cs">
       <Link>Team.cs</Link>
     </Compile>
-    <Compile Include="LeagueTableParser.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
